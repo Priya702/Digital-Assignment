@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Digital-Assignment';
+  userId: number;
+
+  processUser(id: number): void {
+    this.userId = id;
+  }
 }
